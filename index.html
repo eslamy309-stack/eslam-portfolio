@@ -1,9 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Eslam Yasser — Developer & Builder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
 <style>
 /* ════════════════════════════════════════════
    DESIGN TOKENS
@@ -943,6 +946,27 @@ body.admin-mode .admin-mode-badge { display: block; }
   .btn-primary, .btn-secondary { padding: 12px 22px; font-size: 0.9rem; }
   .stats-inner { flex-direction: row; }
 }
+
+/* === PROFESSIONAL UPGRADE === */
+body,button,input,select,textarea{font-family:'Inter',system-ui,-apple-system,sans-serif}
+.section-title,.hero-greeting,.nav-logo,.loader-name,.feat-title,.proj-name,.modal-title,.stat-num,.tl-title{font-family:'Space Grotesk',system-ui,sans-serif}
+.section-title{letter-spacing:-.02em}.hero-greeting{letter-spacing:-.035em}.proj-name,.feat-title{letter-spacing:-.01em}.stat-num{font-size:2.25rem;letter-spacing:-.02em}
+[data-theme="dark"]{--bg:#080e1c;--bg-alt:#0f1829;--bg-tint:#131d34;--text:#f1f5f9;--text-md:#cbd5e1;--text-muted:#8b9ab5;--border:rgba(255,255,255,.07);--border-accent:rgba(99,102,241,.28);--shadow-sm:0 1px 3px rgba(0,0,0,.5),0 4px 12px rgba(99,102,241,.12);--shadow-md:0 4px 16px rgba(0,0,0,.6),0 12px 36px rgba(99,102,241,.16);--shadow-lg:0 8px 32px rgba(0,0,0,.7),0 24px 60px rgba(99,102,241,.2)}
+[data-theme="dark"] nav{background:rgba(8,14,28,.95)}[data-theme="dark"] #hero{background:linear-gradient(145deg,#080e1c,#0f1829 50%,#0d1528)}[data-theme="dark"] section.alt{background:#0f1829}[data-theme="dark"] section.tint{background:#131d34}[data-theme="dark"] .mobile-nav,[data-theme="dark"] #loader{background:#080e1c}
+[data-theme="dark"] .tl-card,[data-theme="dark"] .proj-card,[data-theme="dark"] .why-card,[data-theme="dark"] .svc-card,[data-theme="dark"] .contact-card,[data-theme="dark"] .bi-card,[data-theme="dark"] .proj-featured{background:#0f1829}[data-theme="dark"] .tl-node{border-color:#080e1c}
+[data-theme="dark"] .hero-badge,[data-theme="dark"] .btn-secondary{background:#0f1829}[data-theme="dark"] .modal-ps-card{background:#131d34}[data-theme="dark"] .admin-box{background:#0f1829;color:var(--text)}[data-theme="dark"] .af-input,[data-theme="dark"] .af-select,[data-theme="dark"] .af-textarea{background:#131d34;border-color:var(--border);color:var(--text)}
+[data-theme="dark"] footer{background:#050a14;border-color:var(--border)}[data-theme="dark"] .filt-btn{background:#0f1829}[data-theme="dark"] .skill-track{background:rgba(255,255,255,.07)}
+.theme-toggle{width:38px;height:38px;border-radius:10px;border:1px solid var(--border);background:transparent;display:inline-flex;align-items:center;justify-content:center;color:var(--text-muted);cursor:pointer;transition:all .2s;margin-left:6px;flex-shrink:0}.theme-toggle:hover{border-color:var(--border-accent);color:var(--accent);background:var(--accent-light)}.theme-toggle svg{width:16px;height:16px;transition:transform .35s;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round}.theme-toggle:hover svg{transform:rotate(22deg)}.sun-icon{display:none}.moon-icon{display:block}[data-theme="dark"] .sun-icon{display:block}[data-theme="dark"] .moon-icon{display:none}
+.section-label svg{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.cc-icon{width:52px;height:52px;border-radius:14px;background:var(--accent-light);display:flex;align-items:center;justify-content:center;margin-bottom:1rem;flex-shrink:0;font-size:0;transition:background .25s}.cc-icon svg{width:23px;height:23px;stroke:var(--accent);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;transition:stroke .25s}.contact-card:hover .cc-icon{background:var(--accent)}.contact-card:hover .cc-icon svg{stroke:#fff}
+.svc-icon{width:56px;height:56px;border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:1.25rem;font-size:0;transition:transform .25s}.svc-card:hover .svc-icon{transform:scale(1.08)}.svc-icon svg{width:26px;height:26px;fill:none;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;stroke:var(--accent)}
+.proj-visual{height:152px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;font-size:0}.proj-monogram{font-family:'Space Grotesk',sans-serif;font-size:3.25rem;font-weight:900;color:rgba(255,255,255,.96);position:relative;z-index:2;text-shadow:0 4px 24px rgba(0,0,0,.22);line-height:1;letter-spacing:-.03em}.proj-code-overlay{position:absolute;bottom:0;left:0;right:0;padding:.6rem 1rem;display:flex;flex-direction:column;gap:5px;opacity:.22;z-index:1}.proj-code-line{height:4px;border-radius:2px;background:#fff}.proj-visual::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,transparent 40%,rgba(0,0,0,.12));z-index:1;pointer-events:none}
+.feat-emoji{display:none}.feat-monogram{font-family:'Space Grotesk',sans-serif;font-size:4.5rem;font-weight:900;color:rgba(255,255,255,.96);text-shadow:0 6px 30px rgba(0,0,0,.2);position:relative;z-index:1;line-height:1;letter-spacing:-.04em}.feat-badge svg{width:13px;height:13px;fill:currentColor;flex-shrink:0}.proj-gh-badge{display:inline-flex;align-items:center;gap:5px}.proj-gh-badge svg{width:12px;height:12px;fill:var(--accent)}
+.journey-step-icon{font-size:0;width:32px;height:32px;border-radius:8px;background:var(--accent-light);display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}.journey-step-icon svg{width:15px;height:15px;stroke:var(--accent);fill:none;stroke-width:2.2;stroke-linecap:round}
+.why-card{position:relative;overflow:hidden}.why-card::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,var(--accent-light),transparent);opacity:0;transition:opacity .3s;border-radius:inherit;pointer-events:none}.why-card:hover::before{opacity:1}
+::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:var(--border-accent);border-radius:3px}::-webkit-scrollbar-thumb:hover{background:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+footer{border-top:1px solid var(--border)}footer a{color:var(--accent)}footer a:hover{text-decoration:underline}
 </style>
 </head>
 <body>
@@ -980,6 +1004,7 @@ body.admin-mode .admin-mode-badge { display: block; }
     <a href="#data-bi">Data & BI</a>
     <a href="#contact" class="nav-cta">Let's Talk</a>
   </div>
+  <button class="theme-toggle" id="theme-toggle-btn" aria-label="Toggle dark mode"><svg class="sun-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="moon-icon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
   <button class="nav-menu-btn" id="menu-btn" aria-label="Toggle menu">
     <span></span><span></span><span></span>
   </button>
@@ -1043,7 +1068,7 @@ body.admin-mode .admin-mode-badge { display: block; }
 ══════════════════════════════════════════ -->
 <section id="journey">
   <div class="section-inner">
-    <div class="section-label">📖 My Story</div>
+    <div class="section-label"><svg viewBox="0 0 24 24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg> My Story</div>
     <h2 class="section-title">The Journey That <span>Shaped Me</span></h2>
     <p class="section-desc">Every project was a lesson. Every failure was a chapter. Here's how it unfolded.</p>
     <div class="tl-wrapper">
@@ -1058,7 +1083,7 @@ body.admin-mode .admin-mode-badge { display: block; }
 ══════════════════════════════════════════ -->
 <section id="projects" class="alt">
   <div class="section-inner">
-    <div class="section-label">🛠 What I've Built</div>
+    <div class="section-label"><svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> What I've Built</div>
     <h2 class="section-title">Products, <span>Not Just Projects</span></h2>
     <p class="section-desc">Real problems. Real code. Real solutions. Click any project to read the full story.</p>
 
@@ -1083,7 +1108,7 @@ body.admin-mode .admin-mode-badge { display: block; }
 ══════════════════════════════════════════ -->
 <section id="services">
   <div class="section-inner">
-    <div class="section-label">💼 Services</div>
+    <div class="section-label"><svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Services</div>
     <h2 class="section-title">What I <span>Build</span></h2>
     <p class="section-desc">From idea to live product — I cover the full journey across web, data, and interactive experiences.</p>
     <div class="services-grid" id="services-grid"></div>
@@ -1095,7 +1120,7 @@ body.admin-mode .admin-mode-badge { display: block; }
 ══════════════════════════════════════════ -->
 <section id="why-me" class="tint">
   <div class="section-inner centered">
-    <div class="section-label">✨ Why Me</div>
+    <div class="section-label"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Why Me</div>
     <h2 class="section-title">Why Work <span>With Me</span></h2>
     <p class="section-desc">I bring more than just code. I bring a business mindset, clean execution, and genuine care for the outcome.</p>
     <div class="why-grid" id="why-grid"></div>
@@ -1107,7 +1132,7 @@ body.admin-mode .admin-mode-badge { display: block; }
 ══════════════════════════════════════════ -->
 <section id="skills">
   <div class="section-inner">
-    <div class="section-label">📈 Skills Evolution</div>
+    <div class="section-label"><svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> Skills Evolution</div>
     <h2 class="section-title">Always <span>Growing</span></h2>
     <p class="section-desc">These aren't static numbers. Every project pushed these forward — and they keep moving.</p>
     <div class="skills-layout">
@@ -1130,7 +1155,7 @@ body.admin-mode .admin-mode-badge { display: block; }
   <div class="section-inner">
     <div class="bi-header-row">
       <div>
-        <div class="section-label">📊 Data Analytics</div>
+        <div class="section-label"><svg viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg> Data Analytics</div>
         <h2 class="section-title">Turning Data Into <span>Decisions</span></h2>
         <p class="section-desc">Beyond web development — I explore how data guides better business outcomes. Raw numbers transformed into clear insights.</p>
       </div>
@@ -1145,27 +1170,27 @@ body.admin-mode .admin-mode-badge { display: block; }
 ══════════════════════════════════════════ -->
 <section id="contact">
   <div class="section-inner centered">
-    <div class="section-label">✉ Get In Touch</div>
+    <div class="section-label"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> Get In Touch</div>
     <h2 class="section-title">Let's Build <span>Something Together</span></h2>
     <p class="section-desc">I'm open to freelance projects, internships, and interesting conversations. Let's turn your idea into something real.</p>
     <div class="contact-cards">
       <a href="mailto:eslamy309@gmail.com" class="contact-card">
-        <span class="cc-icon">📧</span>
+        <span class="cc-icon"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span>
         <span class="cc-label">Email</span>
         <span class="cc-val">eslamy309@gmail.com</span>
       </a>
       <a href="https://wa.me/201099154014" target="_blank" class="contact-card">
-        <span class="cc-icon">💬</span>
+        <span class="cc-icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
         <span class="cc-label">WhatsApp</span>
         <span class="cc-val">+20 109 915 4014</span>
       </a>
       <a href="https://github.com/eslamy309-stack" target="_blank" class="contact-card">
-        <span class="cc-icon">🐙</span>
+        <span class="cc-icon"><svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></span>
         <span class="cc-label">GitHub</span>
         <span class="cc-val">eslamy309-stack</span>
       </a>
       <a href="https://www.linkedin.com/in/eslam-yasser-7a4319364" target="_blank" class="contact-card">
-        <span class="cc-icon">💼</span>
+        <span class="cc-icon"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></span>
         <span class="cc-label">LinkedIn</span>
         <span class="cc-val">Eslam Yasser</span>
       </a>
@@ -1554,30 +1579,30 @@ const SKILL_JOURNEY = [
   { icon: '⚡', text: 'JavaScript — Making things interactive' },
   { icon: '⚛️', text: 'React — Building real applications' },
   { icon: '🔧', text: 'Full Stack — Front to back, end to end' },
-  { icon: '📊', text: 'Data & BI — Insights from information' },
+  { icon: '<svg viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>', text: 'Data & BI — Insights from information' },
 ];
 
 const SERVICES = [
   {
-    icon: '🌐', color: '#f0f4ff',
+    icon: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>', color: '#f0f4ff',
     name: 'Business Websites',
     desc: 'Professional, conversion-focused websites that represent your brand and turn visitors into clients.',
     list: ['Landing pages', 'Company websites', 'Portfolio sites', 'E-commerce stores']
   },
   {
-    icon: '⚙️', color: '#f0fff8',
+    icon: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06-.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>', color: '#f0fff8',
     name: 'Web Applications',
     desc: 'Full-stack applications with real backends, databases, user authentication, and business logic.',
     list: ['Dashboards & admin panels', 'Booking & marketplace platforms', 'SaaS applications', 'REST APIs']
   },
   {
-    icon: '📊', color: '#fffbf0',
+    icon: '<svg viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>', color: '#fffbf0',
     name: 'Data & BI Solutions',
     desc: 'Turn your raw data into clear business intelligence — dashboards that reveal the story inside the numbers.',
     list: ['Power BI dashboards', 'Data visualization', 'Business reporting', 'KPI tracking systems']
   },
   {
-    icon: '✨', color: '#fdf0ff',
+    icon: '<svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>', color: '#fdf0ff',
     name: 'Interactive Experiences',
     desc: 'Creative web experiences that go beyond the standard — memorable, engaging, and technically impressive.',
     list: ['Immersive portfolio sites', 'Interactive product demos', 'Animated interfaces', 'Creative frontends']
@@ -1754,7 +1779,7 @@ function renderProjects() {
     featSlot.innerHTML = `
       <div class="proj-featured" onclick="openModal('${feat.id}')" id="feat-card">
         <div class="feat-visual" style="background:${feat.color}">
-          <div class="feat-emoji">${feat.emoji}</div>
+          <div class="feat-monogram">${feat.name.charAt(0)}</div>
           <div class="feat-mockup">
             <div class="feat-mock-bar" style="width:80%"></div>
             <div class="feat-mock-bar" style="width:60%"></div>
@@ -1762,7 +1787,7 @@ function renderProjects() {
           </div>
         </div>
         <div class="feat-info">
-          <div class="feat-badge">⭐ Featured Case Study</div>
+          <div class="feat-badge"><svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Featured Case Study</div>
           <div class="feat-title">${feat.name}</div>
           <div class="feat-sub">${feat.storyShort}</div>
           <div class="feat-pills">${feat.tech.map(t=>`<span class="feat-pill">${t}</span>`).join('')}</div>
@@ -1782,14 +1807,14 @@ function renderProjects() {
   grid.innerHTML = projects.filter(p=>!p.featured).map(p => `
     <div class="proj-card ${activeFilter!=='All'&&p.category!==activeFilter?'hidden':''}"
          data-cat="${p.category}" onclick="openModal('${p.id}')">
-      <div class="proj-visual" style="background:${p.color}">${p.emoji}</div>
+      <div class="proj-visual" style="background:${p.color}"><div class="proj-monogram">${p.name.charAt(0)}</div><div class="proj-code-overlay"><div class="proj-code-line" style="width:78%"></div><div class="proj-code-line" style="width:52%"></div><div class="proj-code-line" style="width:66%"></div><div class="proj-code-line" style="width:40%"></div></div></div>
       <div class="proj-body">
         <div class="proj-cat-label">${p.category}</div>
         <div class="proj-name">${p.name}</div>
         <div class="proj-snippet">${p.storyShort}</div>
         <div class="proj-link-row">
           ${p.live ? `<span class="proj-live-badge"><span class="proj-live-dot"></span>Live</span>` : ''}
-          ${p.github ? `<span class="proj-gh-badge">⌥ GitHub</span>` : ''}
+          ${p.github ? `<span class="proj-gh-badge"><svg viewBox="0 0 24 24" width="12" height="12"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> GitHub</span>` : ''}
         </div>
         <div class="proj-footer">
           <div class="proj-tech-pills">${p.tech.slice(0,3).map(t=>`<span class="proj-tp">${t}</span>`).join('')}</div>
@@ -2054,6 +2079,8 @@ function saveDashboard() {
   setDashboards(dashboards);
   closeAdmin();
   renderDashboards();
+/* Dark mode toggle */
+(function(){var btn=document.getElementById("theme-toggle-btn");var root=document.documentElement;var saved=localStorage.getItem("eslam-theme");if(saved)root.setAttribute("data-theme",saved);if(btn)btn.addEventListener("click",function(){var curr=root.getAttribute("data-theme");var next=curr==="dark"?"light":"dark";root.setAttribute("data-theme",next);localStorage.setItem("eslam-theme",next);});})();
 }
 
 /* ────────────────────────────────────────────
@@ -2080,6 +2107,10 @@ renderServices();
 renderWhyMe();
 renderSkills();
 renderDashboards();
+/* Dark mode toggle */
+(function(){var btn=document.getElementById("theme-toggle-btn");var root=document.documentElement;var saved=localStorage.getItem("eslam-theme");if(saved)root.setAttribute("data-theme",saved);if(btn)btn.addEventListener("click",function(){var curr=root.getAttribute("data-theme");var next=curr==="dark"?"light":"dark";root.setAttribute("data-theme",next);localStorage.setItem("eslam-theme",next);});})();
 </script>
 </body>
 </html>
+
+
